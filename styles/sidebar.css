@@ -65,19 +65,19 @@
     margin-bottom: 2.8rem;
 }
 
-.profile__img__abs {
-    position: absolute;
+.profile__img__wrapper {
     width: 65%;
-    filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.5));
-    opacity: 0;
-}
-
-.profile__img {
-    width: 65%;
-    border-radius: 50%;
+    margin: auto;
+    border-radius: 100%;
+    overflow: hidden;
     box-shadow: 3px 3px 13px -3px var(--accent-color);
     border: 1.5px solid var(--accent-color);
     opacity: 0.9;
+}
+
+.profile__img {
+    width: 100%;
+    scale: 1.05;
 }
 
 .profile__img__button {
@@ -100,25 +100,25 @@
     min-height: 26px;
 }
 
-.profile__img__button:nth-child(3) {
+.profile__img__button:nth-child(2) {
     top: -19%;
     left: 33%;
     transform: scale(0.98);
 }
 
-.profile__img__button:nth-child(4) {
+.profile__img__button:nth-child(3) {
     top: -10.5%;
     left: 19%;
     transform: scale(1.03);
 }
 
-.profile__img__button:nth-child(5) {
+.profile__img__button:nth-child(4) {
     top: 7%;
     left: 9%;
     transform: scale(0.98);
 }
 
-.profile__img__button:nth-child(6) {
+.profile__img__button:nth-child(5) {
     top: 27%;
     left: 4%;
     transform: scale(0.95);
@@ -221,25 +221,25 @@
         width: 2rem;
     }
 
-    .profile__img__button:nth-child(3) {
+    .profile__img__button:nth-child(2) {
         top: -16.5%;
         left: 35%;
         transform: scale(0.98);
     }
     
-    .profile__img__button:nth-child(4) {
+    .profile__img__button:nth-child(3) {
         top: -8.5%;
         left: 21%;
         transform: scale(1.03);
     }
     
-    .profile__img__button:nth-child(5) {
+    .profile__img__button:nth-child(4) {
         top: 9%;
         left: 11%;
         transform: scale(0.98);
     }
     
-    .profile__img__button:nth-child(6) {
+    .profile__img__button:nth-child(5) {
         top: 29%;
         left: 6%;
         transform: scale(0.95);
